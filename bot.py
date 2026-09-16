@@ -17,10 +17,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.environ.get("8816958390:AAHDcNT8zJqMgeDDexHIZikAa9Dud4P8oSE")
-if not BOT_TOKEN:
-    logger.error("BOT_TOKEN environment variable is not set. Set it in your hosting platform's Environment Variables tab.")
-    sys.exit(1)
-
 GROUP_USERNAME = "@sahiyatracker"
 GROUP_LINK = "https://t.me/sahiyatracker"
 
