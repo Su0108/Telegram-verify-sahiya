@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get "8816958390:AAHDcNT8zJqMgeDDexHIZikAa9Dud4P8oSE" 
+BOT_TOKEN = "8816958390:AAHDcNT8zJqMgeDDexHIZikAa9Dud4P8oSE" 
 GROUP_USERNAME = "@sahiyatracker"
 GROUP_LINK = "https://t.me/sahiyatracker"
 
