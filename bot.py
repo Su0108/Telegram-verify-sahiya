@@ -7,7 +7,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-BOT_TOKEN = "8816958390:AAHDcNT8zJqMgeDDexHIZikAa9Dud4P8oSE"
+BOT_TOKEN = os.environ "8816958390:AAHDcNT8zJqMgeDDexHIZikAa9Dud4P8oSE"
 
 GROUP_USERNAME = "@sahiyatracker"
 GROUP_LINK = "https://t.me/sahiyatracker"
